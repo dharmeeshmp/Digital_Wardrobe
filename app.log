@@ -1821,3 +1821,203 @@ Traceback (most recent call last):
     raise ValueError("Unable to infer channel dimension format")
 ValueError: Unable to infer channel dimension format
 
+2026-09-13 13:09:41 [ERROR] [ApparelMatcher.Controller] Task 28fcf2f7-23ee-4659-b183-dd5d073fa444 failed: module 'cv2' has no attribute 'CascadeClassifier'
+Traceback (most recent call last):
+  File "C:\DressMatcher\main.py", line 64, in process_single_garment_task
+    cleaned_img = vision_service.process_any_garment(pil_img)
+  File "C:\DressMatcher\vision_service.py", line 285, in process_any_garment
+    if self.is_human_model(pil_img):
+       ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\DressMatcher\vision_service.py", line 125, in is_human_model
+    face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+                   ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cv2' has no attribute 'CascadeClassifier'
+
+2026-09-13 13:09:41 [ERROR] [ApparelMatcher.Controller] Task 3b0f5497-60f5-4423-9feb-eccf2408f51a failed: module 'cv2' has no attribute 'CascadeClassifier'
+Traceback (most recent call last):
+  File "C:\DressMatcher\main.py", line 64, in process_single_garment_task
+    cleaned_img = vision_service.process_any_garment(pil_img)
+  File "C:\DressMatcher\vision_service.py", line 285, in process_any_garment
+    if self.is_human_model(pil_img):
+       ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\DressMatcher\vision_service.py", line 125, in is_human_model
+    face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+                   ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cv2' has no attribute 'CascadeClassifier'
+
+2026-09-13 13:09:41 [ERROR] [ApparelMatcher.Controller] Task 3a629137-8da6-48f8-bf6e-94e0bd027365 failed: module 'cv2' has no attribute 'CascadeClassifier'
+Traceback (most recent call last):
+  File "C:\DressMatcher\main.py", line 64, in process_single_garment_task
+    cleaned_img = vision_service.process_any_garment(pil_img)
+  File "C:\DressMatcher\vision_service.py", line 285, in process_any_garment
+    if self.is_human_model(pil_img):
+       ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\DressMatcher\vision_service.py", line 125, in is_human_model
+    face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+                   ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cv2' has no attribute 'CascadeClassifier'
+
+2026-09-13 13:09:41 [ERROR] [ApparelMatcher.Controller] Task 502533d6-ec07-4946-aa9e-9b01bc9adcbb failed: module 'cv2' has no attribute 'CascadeClassifier'
+Traceback (most recent call last):
+  File "C:\DressMatcher\main.py", line 64, in process_single_garment_task
+    cleaned_img = vision_service.process_any_garment(pil_img)
+  File "C:\DressMatcher\vision_service.py", line 285, in process_any_garment
+    if self.is_human_model(pil_img):
+       ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\DressMatcher\vision_service.py", line 125, in is_human_model
+    face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+                   ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cv2' has no attribute 'CascadeClassifier'
+
+2026-09-13 13:16:30 [ERROR] [ApparelMatcher.Controller] Task 75f3e343-ad32-4031-aa9d-0931cccab496 failed: module 'cv2' has no attribute 'CascadeClassifier'
+Traceback (most recent call last):
+  File "C:\DressMatcher\main.py", line 64, in process_single_garment_task
+    cleaned_img = vision_service.process_any_garment(pil_img)
+  File "C:\DressMatcher\vision_service.py", line 285, in process_any_garment
+    if self.is_human_model(pil_img):
+       ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\DressMatcher\vision_service.py", line 125, in is_human_model
+    face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+                   ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cv2' has no attribute 'CascadeClassifier'
+
+2026-09-13 13:16:30 [ERROR] [ApparelMatcher.Controller] Task fc00963c-da23-4761-b6c5-8b9f642db309 failed: module 'cv2' has no attribute 'CascadeClassifier'
+Traceback (most recent call last):
+  File "C:\DressMatcher\main.py", line 64, in process_single_garment_task
+    cleaned_img = vision_service.process_any_garment(pil_img)
+  File "C:\DressMatcher\vision_service.py", line 285, in process_any_garment
+    if self.is_human_model(pil_img):
+       ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\DressMatcher\vision_service.py", line 125, in is_human_model
+    face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+                   ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cv2' has no attribute 'CascadeClassifier'
+
+2026-09-13 13:16:30 [ERROR] [ApparelMatcher.Controller] Task dc13d15d-7f25-485b-8a6f-509d2fb4c3b8 failed: module 'cv2' has no attribute 'CascadeClassifier'
+Traceback (most recent call last):
+  File "C:\DressMatcher\main.py", line 64, in process_single_garment_task
+    cleaned_img = vision_service.process_any_garment(pil_img)
+  File "C:\DressMatcher\vision_service.py", line 285, in process_any_garment
+    if self.is_human_model(pil_img):
+       ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\DressMatcher\vision_service.py", line 125, in is_human_model
+    face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+                   ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cv2' has no attribute 'CascadeClassifier'
+
+2026-09-13 13:16:30 [ERROR] [ApparelMatcher.Controller] Task dd26d1de-71ad-46a0-8f7a-03e914d96ebc failed: module 'cv2' has no attribute 'CascadeClassifier'
+Traceback (most recent call last):
+  File "C:\DressMatcher\main.py", line 64, in process_single_garment_task
+    cleaned_img = vision_service.process_any_garment(pil_img)
+  File "C:\DressMatcher\vision_service.py", line 285, in process_any_garment
+    if self.is_human_model(pil_img):
+       ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\DressMatcher\vision_service.py", line 125, in is_human_model
+    face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+                   ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cv2' has no attribute 'CascadeClassifier'
+
+2026-09-13 13:16:30 [ERROR] [ApparelMatcher.Controller] Task 6a931cc1-5439-493c-8ba7-ffef05d89e7b failed: module 'cv2' has no attribute 'CascadeClassifier'
+Traceback (most recent call last):
+  File "C:\DressMatcher\main.py", line 64, in process_single_garment_task
+    cleaned_img = vision_service.process_any_garment(pil_img)
+  File "C:\DressMatcher\vision_service.py", line 285, in process_any_garment
+    if self.is_human_model(pil_img):
+       ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\DressMatcher\vision_service.py", line 125, in is_human_model
+    face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+                   ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cv2' has no attribute 'CascadeClassifier'
+
+2026-09-13 13:17:40 [ERROR] [ApparelMatcher.Controller] Task 462192c4-3cd5-4239-95d1-d6bef67c1831 failed: module 'cv2' has no attribute 'CascadeClassifier'
+Traceback (most recent call last):
+  File "C:\DressMatcher\main.py", line 64, in process_single_garment_task
+    cleaned_img = vision_service.process_any_garment(pil_img)
+  File "C:\DressMatcher\vision_service.py", line 285, in process_any_garment
+    if self.is_human_model(pil_img):
+       ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\DressMatcher\vision_service.py", line 125, in is_human_model
+    face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+                   ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'cv2' has no attribute 'CascadeClassifier'
+
+2026-09-13 13:22:11 [INFO] [ApparelMatcher.Vision] Human model detected: running clothing parsing.
+2026-09-13 13:22:15 [INFO] [ApparelMatcher.Controller] Task 05e4880f-a6c2-4148-825f-0decbe678a19 completed successfully for 1000051737.jpg
+2026-09-13 13:22:16 [INFO] [ApparelMatcher.Vision] Human model detected: running clothing parsing.
+2026-09-13 13:22:18 [INFO] [ApparelMatcher.Controller] Task 439cbf56-0021-4cbc-9158-0d8b6362a884 completed successfully for 1000051733.jpg
+2026-09-13 13:22:20 [INFO] [ApparelMatcher.Vision] Human model detected: running clothing parsing.
+2026-09-13 13:22:23 [INFO] [ApparelMatcher.Controller] Task 5ef8c8ea-f058-45d6-ba7e-0387ecd65f6b completed successfully for 1000051734.jpg
+2026-09-13 13:22:24 [INFO] [ApparelMatcher.Vision] Human model detected: running clothing parsing.
+2026-09-13 13:22:27 [INFO] [ApparelMatcher.Controller] Task a4a4bcfd-dcc2-435b-8a6a-a6044bbe9447 completed successfully for 1000051736.jpg
+2026-09-13 13:25:23 [ERROR] [ApparelMatcher.Controller] Task 4127a0d5-0a29-4629-8e70-1aafcf970472 failed: 'NoneType' object has no attribute 'save'
+Traceback (most recent call last):
+  File "C:\DressMatcher\main.py", line 72, in process_single_garment_task
+    cleaned_img.save(out_path, "PNG", optimize=True)
+    ^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'save'
+
+2026-09-13 13:25:23 [ERROR] [ApparelMatcher.Controller] Task 41a8b32d-3d54-4499-a954-98999cc51447 failed: 'NoneType' object has no attribute 'save'
+Traceback (most recent call last):
+  File "C:\DressMatcher\main.py", line 72, in process_single_garment_task
+    cleaned_img.save(out_path, "PNG", optimize=True)
+    ^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'save'
+
+2026-09-13 13:26:01 [ERROR] [ApparelMatcher.Controller] Task b8035015-011e-4aae-929a-e9331ba08900 failed: 'NoneType' object has no attribute 'save'
+Traceback (most recent call last):
+  File "C:\DressMatcher\main.py", line 72, in process_single_garment_task
+    cleaned_img.save(out_path, "PNG", optimize=True)
+    ^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'save'
+
+2026-09-13 13:26:01 [ERROR] [ApparelMatcher.Controller] Task 958fd13f-5f2a-4307-8843-ce694d1ec323 failed: 'NoneType' object has no attribute 'save'
+Traceback (most recent call last):
+  File "C:\DressMatcher\main.py", line 72, in process_single_garment_task
+    cleaned_img.save(out_path, "PNG", optimize=True)
+    ^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'save'
+
+2026-09-13 14:19:11 [ERROR] [ApparelMatcher.Controller] Extraction error: 'NoneType' object has no attribute 'save'
+Traceback (most recent call last):
+  File "C:\DressMatcher\main.py", line 203, in extract_features
+    cleaned_img.save(temp_path, "PNG")
+    ^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'save'
+
+2026-09-13 14:31:12 [ERROR] [ApparelMatcher.Controller] Extraction error: 'NoneType' object has no attribute 'save'
+Traceback (most recent call last):
+  File "C:\DressMatcher\main.py", line 203, in extract_features
+    cleaned_img.save(temp_path, "PNG")
+    ^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'save'
+
+2026-09-13 14:31:22 [ERROR] [ApparelMatcher.Controller] Extraction error: 'NoneType' object has no attribute 'save'
+Traceback (most recent call last):
+  File "C:\DressMatcher\main.py", line 203, in extract_features
+    cleaned_img.save(temp_path, "PNG")
+    ^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'save'
+
+2026-09-13 14:32:26 [ERROR] [ApparelMatcher.Controller] Extraction error: 'NoneType' object has no attribute 'save'
+Traceback (most recent call last):
+  File "C:\DressMatcher\main.py", line 203, in extract_features
+    cleaned_img.save(temp_path, "PNG")
+    ^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'save'
+
+2026-09-13 16:37:33 [INFO] [ApparelMatcher.Controller] Resized input image to (768, 1024)
+2026-09-13 16:41:14 [INFO] [ApparelMatcher.Controller] Resized input image to (600, 800)
+2026-09-13 16:41:27 [INFO] [ApparelMatcher.Controller] Resized input image to (600, 800)
+2026-09-13 16:42:11 [INFO] [ApparelMatcher.Controller] Pipeline finished: Seg=50.39s, Feat=6.40s, Total=57.15s
+2026-09-13 16:42:33 [INFO] [ApparelMatcher.Controller] Pipeline finished: Seg=64.99s, Feat=1.06s, Total=66.35s
+2026-09-13 16:47:18 [INFO] [ApparelMatcher.Controller] Pipeline finished: Seg=47.82s, Feat=4.16s, Total=52.32s
+2026-09-13 16:49:33 [INFO] [ApparelMatcher.Controller] Pipeline finished: Seg=66.82s, Feat=9.00s, Total=76.32s
+2026-09-13 16:49:54 [INFO] [ApparelMatcher.Controller] Pipeline finished: Seg=53.77s, Feat=1.66s, Total=55.74s
+2026-09-13 16:50:40 [INFO] [ApparelMatcher.Controller] Pipeline finished: Seg=37.72s, Feat=1.44s, Total=39.49s
+2026-09-13 16:55:10 [INFO] [ApparelMatcher.Controller] Resized input image to (960, 1280)
+2026-09-13 16:56:01 [INFO] [ApparelMatcher.Controller] Pipeline finished: Seg=47.17s, Feat=3.69s, Total=51.12s
+2026-09-13 16:58:40 [INFO] [ApparelMatcher.Controller] Resized input image to (960, 1280)
+2026-09-13 16:59:27 [INFO] [ApparelMatcher.Controller] Pipeline finished: Seg=43.10s, Feat=3.50s, Total=46.82s
+2026-09-13 17:04:52 [INFO] [ApparelMatcher.Controller] Resized input image to (960, 1280)
+2026-09-13 17:05:41 [INFO] [ApparelMatcher.Controller] Pipeline finished: Seg=45.00s, Feat=3.50s, Total=48.71s
+2026-09-13 17:27:40 [INFO] [ApparelMatcher.Controller] Pipeline finished: Seg=52.10s, Feat=2.93s, Total=55.04s
